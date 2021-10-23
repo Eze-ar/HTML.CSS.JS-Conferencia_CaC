@@ -1,0 +1,123 @@
+.navbar-brand {
+    margin-left: 30px;
+}
+
+#navbarSupportedContent {
+    margin-right: 30px;
+}
+
+#link_verde {
+    color: green
+}
+
+/*atributos del logo Codo a Codo*/
+.logo {
+    width: auto;
+    height: 4rem;
+}
+
+/*texto delante del carousel*/
+
+.texto_carousel {
+    color: white;
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+    left: 0;
+    width: 95%;
+    text-align: right;
+}
+
+
+/*añado un margen extra a mis rows*/
+
+.row {
+    margin: 0.6rem;
+}
+
+
+/*botones con colores propios*/
+
+#btnBorrar, #btnResumen {
+    background-color: yellowgreen;
+    color: white;
+}
+
+
+/*estilos del bloque total a pagar*/
+
+#total {
+    background-color: powderblue;
+    border: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*carousel detrás del texto*/
+
+.carousel-caption {
+    z-index: 1;
+}
+
+
+/*aplico un filtro para lograr mayor contraste con el texto delante*/
+
+#imagen_carousel_1, #imagen_carousel_2 {
+    filter: brightness(0.4);
+}
+
+
+/*cada sección (padre) que ocupe el 100% de la pantalla*/
+
+.seccion {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+/*dejo padding's extras en cada sección por la barra de navegación fija*/
+#sec_oradores, #sec_lugar_fecha, #sec_tickets {
+    padding-top: 6rem;
+    padding-bottom: 2rem
+}
+
+#se_orador {
+    padding-top: 4rem; 
+    padding-bottom: 4rem;
+}
+
+footer{
+    background-color: rgb(53, 79, 97);
+    margin-top: 10px;
+}
+
+.nav_link {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+}
+
+.nav_link:link {
+    text-decoration: none;
+    /*links sin subrayar*/
+}
+
+.nav_link:visited {
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav_link:active {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
